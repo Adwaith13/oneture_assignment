@@ -1,0 +1,71 @@
+.table {
+  margin-left: 5%;
+  font-family: "Arial", sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  width: 92%;
+}
+
+.logo {
+  height: 80%;
+  width: 80%;
+}
+
+.head {
+  width: 10%;
+  height: 10%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+
+.row {
+  width: 5%;
+  height: 10%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.headline {
+  font-size: 1rem;
+  padding: 15px 0px;
+}
+
+.headlineURL {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.filters {
+  width: 15%;
+  padding: 8px 5px;
+  border-radius: 8px;
+  font-family: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.export {
+  margin-left: 62%;
+  width: 15%;
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 5px;
+}
+.row:nth-child(even) {
+  background-color: #dddddd;
+}
